@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header class="bg-grey-100 h-[100vh]">
+        <nav class="flex justify-between items-center px-[200px] py-4 ">
+            <div id="logo" class="flex items-center bg-white">
+                <div class="w-[70px]">
+                    <img       class="w-full" src="data:image/png;base64,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" alt="">
+                </div>
+                <h2 class="font-normal text-2xl">Handmade Bags</h2>
+            </div>
+            <ul class="flex gap-6">
+                <li><a class="text-lg hover:text-green-300" href="#">Home</a></li>
+                <li><a class="text-lg" href="#">New</a></li>
+                <li><a class="text-lg" href="#">Bags</a></li>
+                <li><a class="text-lg" href="#">Backpacs</a></li>
+                <li><a class="text-lg" href="#">Cosmetic bags</a></li>
+                <li><a class="text-lg" href="#">About us</a></li>
+                <li><a class="text-lg" href="#">Contact</a></li>
+            </ul>
+            <div>
+                <i class="fa-solid fa-cart-shopping text-3xl pl-10"></i>
+            </div>
+        </nav>
+        <section class="bg-[url(https://otlgdi.yourbrand.studio/files/dynamicContent/sites/otlgdi/images/en/webpage_14/m67nq6gj/element_150/1/rwdMode_1/1200x513/bags001.jpg)] h-[80vh] flex items-center pl-30">
+            <div class="w-90">
+                <h1 class="text-7xl font-semibold mb-10">New collection</h1>
+                <p class="font-light">The highest quality products, sewn in Ireland from Irish materials. Quality and durability for years.</p>
+                <button class="bg-green-700 mt-10 py-3 px-10 text-white">New collection</button>
+            </div>
+            
+        </section>
+    </header>
+    <main bg->
+        <section></section>
+        <section></section>
+    </main>
+    <footer>
+        <div></div>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>

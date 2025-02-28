@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    padding: 30px 50px;
+}
+
+#container {
+    margin: auto;
+    padding: 0 20px 0 20px;
+    width: 70%;
+    background-color: azure;
+}
+
+.img-div {
+    width: 100px;
+}
+img {
+    width: 100%;
+}
+h4 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h5 {
+    padding-bottom: 15px;
+    color: yellowgreen;
+}
+
+ul {
+    padding-bottom: 10px;
+    list-style-type: square;
+    padding-left: 30px;
+    line-height: 25px;
+}
+
+ol {
+    padding-bottom: 10px;
+    list-style-type: square;
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+blockquote{
+    margin-top: 15px;
+}
+
+address {
+    padding: 30px;
+    margin-block: 15px;
+}

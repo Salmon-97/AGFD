@@ -1,0 +1,71 @@
+/* body {background-color: skyblue;
+
+}
+button {
+    background-color: darkorchid;
+    color: bisque;
+} */
+
+
+
+/* selectors */
+/* 1. class */
+/* .yellow-text {
+    color: yellow;
+} */
+/* 2. id */
+/* #special {
+    color: brown;
+} */
+/* 3 attributes */
+/* input {
+    background-color: darksalmon;
+}
+input[type="text"] {
+    background-color: lime;
+}
+button {
+    background-color: hotpink;
+}
+#lovely {
+    background-color: orangered;
+}
+.Submit {
+    background-color: darkblue;
+} */
+
+
+.card {
+    width: 500px;
+    /* height: 100vh; */
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card p {
+    color: darkmagenta;
+}
+
+.card > p {
+    color: yellow;
+}
+#card-1 {
+    background-color: skyblue;
+}
+#card-2 {
+    background-color: lightcoral;
+}
+#card-3 {
+    background-color: lightgreen;
+}
+#card-1, #card-2 {
+    border-radius: 20px;
+}
+#card-3 h1 {
+    color: #fff677;
+}
+#card-2 h1 {
+    color: hsl(0, 100%, 50%);
+}
+
